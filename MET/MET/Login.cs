@@ -96,8 +96,8 @@ namespace MET
                 if (contraseña.Equals("")) { MessageBox.Show("Ingrese una contraseña primero", "Vuelva a intentarlo"); }
                 else
                 {
-                    //try
-                    //{
+                    try
+                    {
                         List<object> resultado = ControladorLogin.Login(usuario, contraseña);
                         this.Hide();
                         bool exito = (bool)resultado[0];
@@ -115,11 +115,11 @@ namespace MET
                             MessageBox.Show("Usuario y/o contraseña incorrectos", "Vuelva a intentarlo");
                         }
                         
-                    //}
-                    /*catch(Exception e)
+                    }
+                    catch(Exception e)
                     {
                         { MessageBox.Show("Ha ocurrido un error al tratar de entrar a la base de datos, el error fué: " + e.Message , "ERROR"  ); }
-                    }*/
+                    }
 
                    
                 }
