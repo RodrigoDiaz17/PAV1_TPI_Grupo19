@@ -40,9 +40,6 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BibliotecaDB">
-      <HintPath>..\..\..\..\TP\Workspaces\TPProyectoPAV1\Programa\MET\BibliotecaDB\bin\Release\BibliotecaDB.dll</HintPath>
-    </Reference>
     <Reference Include="DevExpress.Data.v20.1">
     </Reference>
     <Reference Include="DevExpress.Data.Desktop.v20.1">
@@ -104,6 +101,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\BibliotecaDB\BibliotecaDB.csproj">
+      <Project>{a6583fd8-6a33-454a-8d6e-caa228485136}</Project>
+      <Name>BibliotecaDB</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

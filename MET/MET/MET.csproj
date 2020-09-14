@@ -37,12 +37,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BibliotecaDB">
-      <HintPath>..\BibliotecaDB\bin\Release\BibliotecaDB.dll</HintPath>
-    </Reference>
-    <Reference Include="BibliotecaMET">
-      <HintPath>..\BibliotecaMET\bin\Release\BibliotecaMET.dll</HintPath>
-    </Reference>
     <Reference Include="CircularProgressBar, Version=2.8.0.16, Culture=neutral, PublicKeyToken=310fd07b25df79b3, processorArchitecture=MSIL">
       <HintPath>..\packages\CircularProgressBar.2.8.0.16\lib\net40\CircularProgressBar.dll</HintPath>
     </Reference>
@@ -356,6 +350,16 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ABMC\Direccion\Barrio\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BibliotecaDB\BibliotecaDB.csproj">
+      <Project>{a6583fd8-6a33-454a-8d6e-caa228485136}</Project>
+      <Name>BibliotecaDB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BibliotecaMET\BibliotecaMET.csproj">
+      <Project>{566e4113-ae35-4f47-90c3-70767e732ab2}</Project>
+      <Name>BibliotecaMET</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
