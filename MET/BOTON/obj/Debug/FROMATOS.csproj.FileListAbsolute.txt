@@ -1,0 +1,11 @@
+Z:\Programacion\RepositorioGitHub\PAV1\PAV1_TPI_Grupo19\MET\BOTON\bin\Debug\BOTON.exe.config
+Z:\Programacion\RepositorioGitHub\PAV1\PAV1_TPI_Grupo19\MET\BOTON\bin\Debug\BOTON.exe
+Z:\Programacion\RepositorioGitHub\PAV1\PAV1_TPI_Grupo19\MET\BOTON\bin\Debug\BOTON.pdb
+Z:\Programacion\RepositorioGitHub\PAV1\PAV1_TPI_Grupo19\MET\BOTON\obj\Debug\FROMATOS.csprojAssemblyReference.cache
+Z:\Programacion\RepositorioGitHub\PAV1\PAV1_TPI_Grupo19\MET\BOTON\obj\Debug\BOTON.BOTON.resources
+Z:\Programacion\RepositorioGitHub\PAV1\PAV1_TPI_Grupo19\MET\BOTON\obj\Debug\BOTON.GRILLA.resources
+Z:\Programacion\RepositorioGitHub\PAV1\PAV1_TPI_Grupo19\MET\BOTON\obj\Debug\BOTON.Properties.Resources.resources
+Z:\Programacion\RepositorioGitHub\PAV1\PAV1_TPI_Grupo19\MET\BOTON\obj\Debug\FROMATOS.csproj.GenerateResource.cache
+Z:\Programacion\RepositorioGitHub\PAV1\PAV1_TPI_Grupo19\MET\BOTON\obj\Debug\FROMATOS.csproj.CoreCompileInputs.cache
+Z:\Programacion\RepositorioGitHub\PAV1\PAV1_TPI_Grupo19\MET\BOTON\obj\Debug\BOTON.exe
+Z:\Programacion\RepositorioGitHub\PAV1\PAV1_TPI_Grupo19\MET\BOTON\obj\Debug\BOTON.pdb

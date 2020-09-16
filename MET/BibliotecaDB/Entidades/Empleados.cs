@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BibliotecaDB.Entidades
 {
-    class Empleados 
+    public class Empleados 
     {
         private int Especialidad;
         private string Cronograma;

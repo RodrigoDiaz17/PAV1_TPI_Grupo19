@@ -74,6 +74,7 @@
     <Compile Include="Clases\Temas\Publicador.cs" />
     <Compile Include="Controladores\ControladorAsociados.cs" />
     <Compile Include="Controladores\ControladorDireccion.cs" />
+    <Compile Include="Controladores\ControladorEmpleados.cs" />
     <Compile Include="Controladores\ControladorLogin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Clases\Form\AbstractForm.resx">
