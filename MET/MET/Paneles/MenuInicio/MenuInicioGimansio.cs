@@ -1,5 +1,6 @@
 ﻿using BibliotecaDB.Entidades;
 using BibliotecaMET.Clases.Form;
+using MET.ABMC.Empleados;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -109,7 +110,8 @@ namespace MET.Paneles.MenuInicio
 
         private void btnEmpleados_Click(object sender, EventArgs e)
         {
-
+            frmEmpleados pantalla = new frmEmpleados();
+            BibliotecaMET.Clases.MetodosGenerales.Forms.MetodosForms.AbrirFormEnPanel(pantalla, );
         }
 
         private void panelTopBtnAsociados_Paint(object sender, PaintEventArgs e)

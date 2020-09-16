@@ -441,7 +441,6 @@ D:\Rodri\Facultad\4to año\PAV 1\ppt\PAV1_TPI_Grupo19\MET\MET\obj\Debug\MET.cspr
 D:\Rodri\Facultad\4to año\PAV 1\ppt\PAV1_TPI_Grupo19\MET\MET\obj\Debug\MET.ABMC.Direccion.Direccion.resources
 D:\Rodri\Facultad\4to año\PAV 1\ppt\PAV1_TPI_Grupo19\MET\MET\obj\Debug\ProyectoBase.AltaPersona.resources
 D:\Rodri\Facultad\4to año\PAV 1\ppt\PAV1_TPI_Grupo19\MET\MET\obj\Debug\MET.altaAsociado.resources
-D:\Rodri\Facultad\4to año\PAV 1\ppt\PAV1_TPI_Grupo19\MET\MET\obj\Debug\MET.altaEmpleados.resources
 D:\Rodri\Facultad\4to año\PAV 1\ppt\PAV1_TPI_Grupo19\MET\MET\obj\Debug\MET.Login.resources
 D:\Rodri\Facultad\4to año\PAV 1\ppt\PAV1_TPI_Grupo19\MET\MET\obj\Debug\MET.Paneles.Area.Area.resources
 D:\Rodri\Facultad\4to año\PAV 1\ppt\PAV1_TPI_Grupo19\MET\MET\obj\Debug\MET.Paneles.BorradorBotones.resources
@@ -458,3 +457,6 @@ D:\Rodri\Facultad\4to año\PAV 1\ppt\PAV1_TPI_Grupo19\MET\MET\obj\Debug\aa\MET.r
 D:\Rodri\Facultad\4to año\PAV 1\ppt\PAV1_TPI_Grupo19\MET\MET\obj\Debug\MET.csproj.CopyComplete
 D:\Rodri\Facultad\4to año\PAV 1\ppt\PAV1_TPI_Grupo19\MET\MET\obj\Debug\MET.exe
 D:\Rodri\Facultad\4to año\PAV 1\ppt\PAV1_TPI_Grupo19\MET\MET\obj\Debug\MET.pdb
+D:\Rodri\Facultad\4to año\PAV 1\ppt\PAV1_TPI_Grupo19\MET\MET\obj\Debug\MET.ABMC.Empleados.frmAltaEmpleado.resources
+D:\Rodri\Facultad\4to año\PAV 1\ppt\PAV1_TPI_Grupo19\MET\MET\obj\Debug\MET.ABMC.Empleados.frmEmpleados.resources
+D:\Rodri\Facultad\4to año\PAV 1\ppt\PAV1_TPI_Grupo19\MET\MET\obj\Debug\MET.ABMC.Empleados.frmModificarEmpleado.resources

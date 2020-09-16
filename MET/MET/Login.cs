@@ -19,6 +19,8 @@ namespace MET
     public partial class Login : Form
     {
         bool Lock = true;
+        public Principal principal;
+
         public Login()
         {
             InitializeComponent();
@@ -85,6 +87,7 @@ namespace MET
             unselect(panelAnother, txtAnother);
             select(panelFoucused, txtFocused);
         }
+        
         private void enviar()
         { 
             string usuario = txtUsuario.Text;
@@ -106,7 +109,7 @@ namespace MET
                             Cuenta cuenta = (Cuenta)resultado[1];
                             Bienvenida presentacion = new Bienvenida(cuenta);
                             presentacion.ShowDialog();
-                            Principal principal = new Principal(cuenta);
+                            principal = new Principal(cuenta);
                             principal.ShowDialog();
                             this.Show();
                         }
@@ -126,6 +129,7 @@ namespace MET
             }
             this.Show(); this.txtContraseña.Text = "";
         }
+        
         private void btnEnviar_Click(object sender, EventArgs e)
         {
             enviar();

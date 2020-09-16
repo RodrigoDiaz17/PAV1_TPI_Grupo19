@@ -113,6 +113,36 @@
     <Compile Include="ABMC\Direccion\Direccion.Designer.cs">
       <DependentUpon>Direccion.cs</DependentUpon>
     </Compile>
+    <Compile Include="ABMC\Empleados\frmAltaEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABMC\Empleados\frmAltaEmpleado.Designer.cs">
+      <DependentUpon>frmAltaEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ABMC\Empleados\frmConsultarEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABMC\Empleados\frmConsultarEmpleado.Designer.cs">
+      <DependentUpon>frmConsultarEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ABMC\Empleados\frmEliminarEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABMC\Empleados\frmEliminarEmpleado.Designer.cs">
+      <DependentUpon>frmEliminarEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ABMC\Empleados\frmEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABMC\Empleados\frmEmpleados.Designer.cs">
+      <DependentUpon>frmEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ABMC\Empleados\frmModificarEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABMC\Empleados\frmModificarEmpleado.Designer.cs">
+      <DependentUpon>frmModificarEmpleado.cs</DependentUpon>
+    </Compile>
     <Compile Include="ABMC\Personas\AltaPersona.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,12 +154,6 @@
     </Compile>
     <Compile Include="ABMC\Asociados\AgregarAsociado.Designer.cs">
       <DependentUpon>AgregarAsociado.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ABMC\Empleados\RegistrarEmpleados.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ABMC\Empleados\RegistrarEmpleados.Designer.cs">
-      <DependentUpon>RegistrarEmpleados.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -179,14 +203,26 @@
     <EmbeddedResource Include="ABMC\Direccion\Direccion.resx">
       <DependentUpon>Direccion.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ABMC\Empleados\frmAltaEmpleado.resx">
+      <DependentUpon>frmAltaEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABMC\Empleados\frmConsultarEmpleado.resx">
+      <DependentUpon>frmConsultarEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABMC\Empleados\frmEliminarEmpleado.resx">
+      <DependentUpon>frmEliminarEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABMC\Empleados\frmEmpleados.resx">
+      <DependentUpon>frmEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABMC\Empleados\frmModificarEmpleado.resx">
+      <DependentUpon>frmModificarEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ABMC\Personas\AltaPersona.resx">
       <DependentUpon>AltaPersona.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ABMC\Asociados\AgregarAsociado.resx">
       <DependentUpon>AgregarAsociado.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ABMC\Empleados\RegistrarEmpleados.resx">
-      <DependentUpon>RegistrarEmpleados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
