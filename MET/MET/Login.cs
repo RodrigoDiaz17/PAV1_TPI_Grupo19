@@ -124,6 +124,7 @@ namespace MET
                    
                 }
             }
+            this.Show(); this.txtContraseña.Text = "";
         }
         private void btnEnviar_Click(object sender, EventArgs e)
         {

@@ -55,7 +55,8 @@
             this.txtUsuario.Location = new System.Drawing.Point(66, 157);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(264, 23);
-            this.txtUsuario.TabIndex = 1;
+            this.txtUsuario.TabIndex = 99999999;
+            this.txtUsuario.TabStop = false;
             this.txtUsuario.Text = "Usuario";
             this.txtUsuario.Click += new System.EventHandler(this.txtUsuario_Click);
             this.txtUsuario.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtUsuario_KeyDown);
@@ -85,7 +86,8 @@
             this.txtContraseña.Location = new System.Drawing.Point(63, 217);
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.Size = new System.Drawing.Size(264, 23);
-            this.txtContraseña.TabIndex = 2;
+            this.txtContraseña.TabIndex = 99999999;
+            this.txtContraseña.TabStop = false;
             this.txtContraseña.Text = "Contraseña";
             this.txtContraseña.Click += new System.EventHandler(this.txtContraseña_Click);
             this.txtContraseña.TextChanged += new System.EventHandler(this.txtContraseña_TextChanged);

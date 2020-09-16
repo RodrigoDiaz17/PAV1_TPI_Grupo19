@@ -157,7 +157,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1166, 4</value>
+    <value>1147, 4</value>
   </data>
   <data name="btnSettings.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 2, 4, 2</value>
@@ -364,7 +364,7 @@
     <value>1</value>
   </data>
   <data name="panelTemas.Location" type="System.Drawing.Point, System.Drawing">
-    <value>915, -1</value>
+    <value>896, -1</value>
   </data>
   <data name="panelTemas.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -427,7 +427,7 @@
     <value>0</value>
   </data>
   <data name="panelSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1055, 1</value>
+    <value>1036, 1</value>
   </data>
   <data name="panelSettings.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -463,7 +463,7 @@
     <value>NoControl</value>
   </data>
   <data name="picCenterLogo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>424, 150</value>
+    <value>405, 136</value>
   </data>
   <data name="picCenterLogo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 2, 4, 2</value>
@@ -502,7 +502,7 @@
     <value>4, 2, 4, 2</value>
   </data>
   <data name="menuPrincipal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 741</value>
+    <value>188, 727</value>
   </data>
   <data name="menuPrincipal.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -522,57 +522,6 @@
   <metadata name="temaForm.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>261, -4</value>
   </metadata>
-  <data name="&gt;&gt;panelBarraTitleTop.Name" xml:space="preserve">
-    <value>panelBarraTitleTop</value>
-  </data>
-  <data name="&gt;&gt;panelBarraTitleTop.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panelBarraTitleTop.Parent" xml:space="preserve">
-    <value>barraTitulo</value>
-  </data>
-  <data name="&gt;&gt;panelBarraTitleTop.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panelBarra.Name" xml:space="preserve">
-    <value>panelBarra</value>
-  </data>
-  <data name="&gt;&gt;panelBarra.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panelBarra.Parent" xml:space="preserve">
-    <value>barraTitulo</value>
-  </data>
-  <data name="&gt;&gt;panelBarra.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="barraTitulo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="barraTitulo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>183, 0</value>
-  </data>
-  <data name="barraTitulo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 2, 4, 2</value>
-  </data>
-  <data name="barraTitulo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1197, 34</value>
-  </data>
-  <data name="barraTitulo.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;barraTitulo.Name" xml:space="preserve">
-    <value>barraTitulo</value>
-  </data>
-  <data name="&gt;&gt;barraTitulo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;barraTitulo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;barraTitulo.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
     <value>pictureBox1</value>
   </data>
@@ -620,6 +569,60 @@
   </data>
   <data name="&gt;&gt;panelBarraTitleTop.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="panelBarra.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelBarra.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelBarra.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="panelBarra.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1178, 1</value>
+  </data>
+  <data name="panelBarra.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panelBarra.Name" xml:space="preserve">
+    <value>panelBarra</value>
+  </data>
+  <data name="&gt;&gt;panelBarra.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelBarra.Parent" xml:space="preserve">
+    <value>barraTitulo</value>
+  </data>
+  <data name="&gt;&gt;panelBarra.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="barraTitulo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="barraTitulo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 0</value>
+  </data>
+  <data name="barraTitulo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 2, 4, 2</value>
+  </data>
+  <data name="barraTitulo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1178, 34</value>
+  </data>
+  <data name="barraTitulo.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;barraTitulo.Name" xml:space="preserve">
+    <value>barraTitulo</value>
+  </data>
+  <data name="&gt;&gt;barraTitulo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;barraTitulo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barraTitulo.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -675,41 +678,14 @@
   <data name="&gt;&gt;lblUsuario.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="panelBarra.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="panelBarra.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="panelBarra.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="panelBarra.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1197, 1</value>
-  </data>
-  <data name="panelBarra.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panelBarra.Name" xml:space="preserve">
-    <value>panelBarra</value>
-  </data>
-  <data name="&gt;&gt;panelBarra.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panelBarra.Parent" xml:space="preserve">
-    <value>barraTitulo</value>
-  </data>
-  <data name="&gt;&gt;panelBarra.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="panelCentro.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
   <data name="panelCentro.Location" type="System.Drawing.Point, System.Drawing">
-    <value>183, 34</value>
+    <value>188, 34</value>
   </data>
   <data name="panelCentro.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1197, 707</value>
+    <value>1178, 693</value>
   </data>
   <data name="panelCentro.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -736,7 +712,7 @@
     <value>True</value>
   </metadata>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1380, 741</value>
+    <value>1366, 727</value>
   </data>
   <data name="Principal.IconOptions.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

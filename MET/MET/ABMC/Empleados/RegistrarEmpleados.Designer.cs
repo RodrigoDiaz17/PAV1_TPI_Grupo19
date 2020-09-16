@@ -206,7 +206,6 @@
             this.btnAgregar.TabIndex = 28;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
-            
             // 
             // lblLegajo
             // 
@@ -237,7 +236,7 @@
             this.gdrEmpleados.GridColor = System.Drawing.Color.Black;
             this.gdrEmpleados.Location = new System.Drawing.Point(283, 82);
             this.gdrEmpleados.Name = "gdrEmpleados";
-            this.gdrEmpleados.Size = new System.Drawing.Size(243, 278);
+            this.gdrEmpleados.Size = new System.Drawing.Size(249, 278);
             this.gdrEmpleados.TabIndex = 33;
             // 
             // Legajo
