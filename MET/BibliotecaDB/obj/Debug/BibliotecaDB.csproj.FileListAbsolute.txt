@@ -5,3 +5,9 @@ Z:\Programacion\RepositorioGitHub\PAV1\PAV1_TPI_Grupo19\MET\BibliotecaDB\obj\Deb
 Z:\Programacion\RepositorioGitHub\PAV1\PAV1_TPI_Grupo19\MET\BibliotecaDB\obj\Debug\BibliotecaDB.csproj.CoreCompileInputs.cache
 Z:\Programacion\RepositorioGitHub\PAV1\PAV1_TPI_Grupo19\MET\BibliotecaDB\obj\Debug\BibliotecaDB.dll
 Z:\Programacion\RepositorioGitHub\PAV1\PAV1_TPI_Grupo19\MET\BibliotecaDB\obj\Debug\BibliotecaDB.pdb
+D:\Rodri\Facultad\4to año\PAV 1\ppt\PAV1_TPI_Grupo19\MET\BibliotecaDB\bin\Debug\BibliotecaDB.dll.config
+D:\Rodri\Facultad\4to año\PAV 1\ppt\PAV1_TPI_Grupo19\MET\BibliotecaDB\bin\Debug\BibliotecaDB.dll
+D:\Rodri\Facultad\4to año\PAV 1\ppt\PAV1_TPI_Grupo19\MET\BibliotecaDB\bin\Debug\BibliotecaDB.pdb
+D:\Rodri\Facultad\4to año\PAV 1\ppt\PAV1_TPI_Grupo19\MET\BibliotecaDB\obj\Debug\BibliotecaDB.csproj.CoreCompileInputs.cache
+D:\Rodri\Facultad\4to año\PAV 1\ppt\PAV1_TPI_Grupo19\MET\BibliotecaDB\obj\Debug\BibliotecaDB.dll
+D:\Rodri\Facultad\4to año\PAV 1\ppt\PAV1_TPI_Grupo19\MET\BibliotecaDB\obj\Debug\BibliotecaDB.pdb

@@ -20,7 +20,7 @@ namespace BibliotecaDB.Conexion
                 if (!creada) 
                 {
                     creada = true;
-                    string cadena = "Data Source=DESKTOP-LDHQLVB\\SQLEXPRESS;Initial Catalog=MET;Integrated Security=True";
+                    string cadena = "Data Source=DESKTOP-500PMKE\\SQLEXPRESS;Initial Catalog=MET;Integrated Security=True";
 
                     instancia = new SqlConnection(cadena); }
                 

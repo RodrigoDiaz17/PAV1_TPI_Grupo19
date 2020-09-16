@@ -16,5 +16,7 @@ namespace BibliotecaMET.Controladores
         public static bool ModificarEmpleado(Empleados Empleado) { return true; }
 
         public static bool BajaEmpleado(Empleados Empleado) { return true; }
+
+        public static bool ConsultarEmpleado(Empleados Empleado) { return true; }
     }
 }
