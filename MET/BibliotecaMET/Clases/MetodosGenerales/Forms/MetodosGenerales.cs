@@ -25,5 +25,52 @@ namespace BibliotecaMET.Clases.MetodosGenerales.Forms
             pnl1.Controls.Find(fh.Name, false);
             fh.Show();
         }
+        public static void OnlyIntergers(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsNumber(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else if (e.KeyChar.Equals('')) { e.Handled = false; }
+            //else if (e.KeyChar.Equals('\r')) { Iniciar(); }
+            else
+            {
+                Console.WriteLine(e.KeyChar);
+                e.Handled = true;
+            }
+        }
+        public static void OnlyDoubles(object sender, KeyPressEventArgs e)
+        {
+            TextBox textbox = ((TextBox)sender);
+            if (textbox.TextLength.Equals(0))
+            {
+                OnlyIntergers(sender, e);
+            }
+            else
+            {
+                if (Char.IsNumber(e.KeyChar))
+                {
+                    e.Handled = false;
+                }
+                else if (e.KeyChar.Equals(','))
+                {
+                    bool pass = false;
+                    foreach (char digit in textbox.Text)
+                    {
+                        if (digit.Equals(',')) { pass = true; }
+
+                    }
+                    e.Handled = pass;
+                }
+                else if (e.KeyChar.Equals('')) { e.Handled = false; }
+                //else if (e.KeyChar.Equals('\r')) { Iniciar(); }
+                else
+                {
+                    e.Handled = true;
+                }
+            }
+
+
+        }
     }
 }

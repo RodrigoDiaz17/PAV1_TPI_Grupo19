@@ -1,5 +1,6 @@
 ﻿using BibliotecaDB.Entidades;
 using BibliotecaMET.Clases.Form;
+using BibliotecaMET.Clases.MetodosGenerales.Forms;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,29 +15,17 @@ namespace MET.ABMC.Empleados
 {
     public partial class frmAltaEmpleado : AbstractForm
     {
-        private void panel14_Paint(object sender, PaintEventArgs e)
+
+        private bool Validar()
         {
+            bool resultado = true;
+            string mensaje = "";
+            if (txtNombre.Text.Equals("")) { mensaje += "\n-Nombre: vacio"; }
+            if (txtApellido.Text.Equals("")) { mensaje += "\n-Apellido: vacio"; }
+            if (dtpFechaNacimiento.Value.Date==DateTime.Today.Date) { mensaje += "\n-Fecha Nacimiento: Identíca al día actual"; }
+            if (!mensaje.Equals("")) { MessageBox.Show("Los siguientes campos están erroneos:" + mensaje, "Error"); resultado = false; }
 
-        }
-
-        private void panel12_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel11_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void AltaPersona_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
+            return resultado;
         }
 
         private void gdrPersonas_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -46,9 +35,13 @@ namespace MET.ABMC.Empleados
 
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
-            BibliotecaDB.Entidades.Empleados empleadoNuevo = new BibliotecaDB.Entidades.Empleados(Convert.ToInt32(txtNroDocumento.Text),
-                txtNombre.Text,txtApellido.Text, Convert.ToInt32(comboBox1.SelectedItem),Convert.ToDateTime(txtFechaNacimiento.Text),
-                txtCorreo.Text,txtTelefono.Text,txtObservaciones.Text,txtInstagram.Text);
+            if (Validar()) 
+            {
+                BibliotecaDB.Entidades.Empleados empleadoNuevo = new BibliotecaDB.Entidades.Empleados(Convert.ToInt32(txtNroDocumento.Text),
+                txtNombre.Text, txtApellido.Text, Convert.ToInt32(comboBox1.SelectedItem), dtpFechaNacimiento.Value.Date,
+                txtCorreo.Text, txtTelefono.Text, txtObservaciones.Text, txtInstagram.Text);
+            }
+            
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
@@ -71,9 +64,10 @@ namespace MET.ABMC.Empleados
 
         }
 
-        private void panel3_Paint(object sender, PaintEventArgs e)
-        {
 
+        private void txtNroDocumento_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            MetodosForms.OnlyIntergers(sender, e);
         }
     }
 }
