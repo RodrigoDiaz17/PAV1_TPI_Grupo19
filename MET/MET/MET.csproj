@@ -131,17 +131,17 @@
     <Compile Include="ABMC\Empleados\frmEliminarEmpleado.Designer.cs">
       <DependentUpon>frmEliminarEmpleado.cs</DependentUpon>
     </Compile>
-    <Compile Include="ABMC\Empleados\frmEmpleados.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ABMC\Empleados\frmEmpleados.Designer.cs">
-      <DependentUpon>frmEmpleados.cs</DependentUpon>
-    </Compile>
     <Compile Include="ABMC\Empleados\frmModificarEmpleado.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ABMC\Empleados\frmModificarEmpleado.Designer.cs">
       <DependentUpon>frmModificarEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ABMC\Empleados\frmPanelEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ABMC\Empleados\frmPanelEmpleados.Designer.cs">
+      <DependentUpon>frmPanelEmpleados.cs</DependentUpon>
     </Compile>
     <Compile Include="ABMC\Personas\AltaPersona.cs">
       <SubType>Form</SubType>
@@ -155,11 +155,11 @@
     <Compile Include="ABMC\Asociados\AgregarAsociado.Designer.cs">
       <DependentUpon>AgregarAsociado.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login.cs">
+    <Compile Include="FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="Paneles\Area\Area.cs">
       <SubType>Form</SubType>
@@ -173,30 +173,30 @@
     <Compile Include="Paneles\BorradorBotones.Designer.cs">
       <DependentUpon>BorradorBotones.cs</DependentUpon>
     </Compile>
-    <Compile Include="Paneles\MenuInicio\MenuInicioUsuario.cs">
+    <Compile Include="Paneles\Contenedor\Contenedor.cs" />
+    <Compile Include="Paneles\MenuInicio\frmMenuInicioUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Paneles\MenuInicio\MenuInicioUsuario.Designer.cs">
-      <DependentUpon>MenuInicioUsuario.cs</DependentUpon>
+    <Compile Include="Paneles\MenuInicio\frmMenuInicioUsuario.Designer.cs">
+      <DependentUpon>frmMenuInicioUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="Paneles\MenuInicio\MenuInicioGimansio.cs">
+    <Compile Include="Paneles\MenuInicio\frmMenuInicioGimansio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Paneles\MenuInicio\MenuInicioGimansio.Designer.cs">
-      <DependentUpon>MenuInicioGimansio.cs</DependentUpon>
+    <Compile Include="Paneles\MenuInicio\frmMenuInicioGimansio.Designer.cs">
+      <DependentUpon>frmMenuInicioGimansio.cs</DependentUpon>
     </Compile>
-    <Compile Include="Presentacion\Bienvenida.cs">
+    <Compile Include="Paneles\Presentacion\frnBienvenida.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Presentacion\Bienvenida.Designer.cs">
-      <DependentUpon>Bienvenida.cs</DependentUpon>
+    <Compile Include="Paneles\Presentacion\frnBienvenida.Designer.cs">
+      <DependentUpon>frnBienvenida.cs</DependentUpon>
     </Compile>
-    <Compile Include="Paneles\Principal\MenuInicioGimansio.cs" />
-    <Compile Include="Paneles\Principal\Principal.cs">
+    <Compile Include="Paneles\Principal\frmPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Paneles\Principal\Principal.Designer.cs">
-      <DependentUpon>Principal.cs</DependentUpon>
+    <Compile Include="Paneles\Principal\frmPrincipal.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -212,11 +212,11 @@
     <EmbeddedResource Include="ABMC\Empleados\frmEliminarEmpleado.resx">
       <DependentUpon>frmEliminarEmpleado.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ABMC\Empleados\frmEmpleados.resx">
-      <DependentUpon>frmEmpleados.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="ABMC\Empleados\frmModificarEmpleado.resx">
       <DependentUpon>frmModificarEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ABMC\Empleados\frmPanelEmpleados.resx">
+      <DependentUpon>frmPanelEmpleados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ABMC\Personas\AltaPersona.resx">
       <DependentUpon>AltaPersona.cs</DependentUpon>
@@ -224,8 +224,8 @@
     <EmbeddedResource Include="ABMC\Asociados\AgregarAsociado.resx">
       <DependentUpon>AgregarAsociado.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
-      <DependentUpon>Login.cs</DependentUpon>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Paneles\Area\Area.resx">
       <DependentUpon>Area.cs</DependentUpon>
@@ -233,20 +233,20 @@
     <EmbeddedResource Include="Paneles\BorradorBotones.resx">
       <DependentUpon>BorradorBotones.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Paneles\MenuInicio\MenuInicioUsuario.resx">
-      <DependentUpon>MenuInicioUsuario.cs</DependentUpon>
+    <EmbeddedResource Include="Paneles\MenuInicio\frmMenuInicioUsuario.resx">
+      <DependentUpon>frmMenuInicioUsuario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Paneles\MenuInicio\MenuInicioGimansio.resx">
-      <DependentUpon>MenuInicioGimansio.cs</DependentUpon>
+    <EmbeddedResource Include="Paneles\MenuInicio\frmMenuInicioGimansio.resx">
+      <DependentUpon>frmMenuInicioGimansio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Presentacion\Bienvenida.resx">
-      <DependentUpon>Bienvenida.cs</DependentUpon>
+    <EmbeddedResource Include="Paneles\Presentacion\frnBienvenida.resx">
+      <DependentUpon>frnBienvenida.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Paneles\Principal\Principal.aa.resx">
-      <DependentUpon>Principal.cs</DependentUpon>
+    <EmbeddedResource Include="Paneles\Principal\frmPrincipal.aa.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Paneles\Principal\Principal.resx">
-      <DependentUpon>Principal.cs</DependentUpon>
+    <EmbeddedResource Include="Paneles\Principal\frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">

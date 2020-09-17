@@ -22,9 +22,13 @@ namespace BibliotecaMET.Clases.Temas
             observadores.Add(observador);
         }
 
-        public void QuitarObservador(IObservador observador)
+        public void QuitarObservador(System.Windows.Forms.Form form)
         {
-            observadores.Remove(observador);
+            foreach (IObservador obs in observadores)
+            {
+                if(((Observador)obs).Form.Equals(form))
+                observadores.Remove(obs);
+            }
         }
 
         public void Notificar(IPublicador publicador)

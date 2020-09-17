@@ -16,8 +16,7 @@ namespace BibliotecaMET.Clases.MetodosGenerales.Forms
         }
         public static void AbrirFormEnPanel(object formA, System.Windows.Forms.Panel pnl1)
         {
-            if (pnl1.Controls.Count > 0)
-                pnl1.Controls.RemoveAt(0);
+            if (pnl1.Controls.Count > 0) pnl1.Controls.RemoveAt(0);
             System.Windows.Forms.Form fh = formA as System.Windows.Forms.Form;
             fh.TopLevel = false;
             fh.Dock = DockStyle.Fill;

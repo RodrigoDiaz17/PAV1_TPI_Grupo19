@@ -54,3 +54,45 @@ D:\Rodri\Facultad\4to año\PAV 1\ppt\PAV1_TPI_Grupo19\MET\BibliotecaMET\obj\Debu
 D:\Rodri\Facultad\4to año\PAV 1\ppt\PAV1_TPI_Grupo19\MET\BibliotecaMET\obj\Debug\BibliotecaMET.csproj.CopyComplete
 D:\Rodri\Facultad\4to año\PAV 1\ppt\PAV1_TPI_Grupo19\MET\BibliotecaMET\obj\Debug\BibliotecaMET.dll
 D:\Rodri\Facultad\4to año\PAV 1\ppt\PAV1_TPI_Grupo19\MET\BibliotecaMET\obj\Debug\BibliotecaMET.pdb
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\BibliotecaMET.dll.config
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\BibliotecaMET.dll
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\BibliotecaMET.pdb
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\BibliotecaDB.dll
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\DevExpress.Data.v20.1.dll
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\DevExpress.Utils.v20.1.dll
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\BibliotecaDB.pdb
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\BibliotecaDB.dll.config
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\DevExpress.Data.v20.1.xml
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\DevExpress.Utils.v20.1.xml
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\obj\Debug\BibliotecaMET.csprojAssemblyReference.cache
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\obj\Debug\BibliotecaMET.Clases.Form.AbstractForm.resources
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\obj\Debug\BibliotecaMET.Properties.Resources.resources
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\obj\Debug\BibliotecaMET.csproj.GenerateResource.cache
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\obj\Debug\BibliotecaMET.csproj.CoreCompileInputs.cache
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\obj\Debug\BibliotecaMET.csproj.CopyComplete
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\obj\Debug\BibliotecaMET.dll
+Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\obj\Debug\BibliotecaMET.pdb

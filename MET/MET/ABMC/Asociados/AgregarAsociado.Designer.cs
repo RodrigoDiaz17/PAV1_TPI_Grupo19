@@ -60,9 +60,9 @@
             // 
             this.lblNombre.AutoSize = true;
             this.lblNombre.ForeColor = System.Drawing.Color.White;
-            this.lblNombre.Location = new System.Drawing.Point(97, 38);
+            this.lblNombre.Location = new System.Drawing.Point(113, 47);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(44, 13);
+            this.lblNombre.Size = new System.Drawing.Size(57, 17);
             this.lblNombre.TabIndex = 0;
             this.lblNombre.Text = "Nombre";
             // 
@@ -70,9 +70,9 @@
             // 
             this.lblDni.AutoSize = true;
             this.lblDni.ForeColor = System.Drawing.Color.White;
-            this.lblDni.Location = new System.Drawing.Point(97, 111);
+            this.lblDni.Location = new System.Drawing.Point(113, 137);
             this.lblDni.Name = "lblDni";
-            this.lblDni.Size = new System.Drawing.Size(22, 13);
+            this.lblDni.Size = new System.Drawing.Size(28, 17);
             this.lblDni.TabIndex = 1;
             this.lblDni.Text = "Dni";
             // 
@@ -80,9 +80,9 @@
             // 
             this.lblApellido.AutoSize = true;
             this.lblApellido.ForeColor = System.Drawing.Color.White;
-            this.lblApellido.Location = new System.Drawing.Point(97, 81);
+            this.lblApellido.Location = new System.Drawing.Point(113, 100);
             this.lblApellido.Name = "lblApellido";
-            this.lblApellido.Size = new System.Drawing.Size(44, 13);
+            this.lblApellido.Size = new System.Drawing.Size(53, 17);
             this.lblApellido.TabIndex = 2;
             this.lblApellido.Text = "Apellido";
             // 
@@ -90,57 +90,61 @@
             // 
             this.lblPlan.AutoSize = true;
             this.lblPlan.ForeColor = System.Drawing.Color.White;
-            this.lblPlan.Location = new System.Drawing.Point(97, 300);
+            this.lblPlan.Location = new System.Drawing.Point(113, 369);
             this.lblPlan.Name = "lblPlan";
-            this.lblPlan.Size = new System.Drawing.Size(27, 13);
+            this.lblPlan.Size = new System.Drawing.Size(33, 17);
             this.lblPlan.TabIndex = 3;
             this.lblPlan.Text = "Plan";
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(185, 38);
+            this.txtNombre.Location = new System.Drawing.Point(216, 47);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(118, 21);
+            this.txtNombre.Size = new System.Drawing.Size(137, 23);
             this.txtNombre.TabIndex = 4;
             // 
             // txtDni
             // 
-            this.txtDni.Location = new System.Drawing.Point(185, 114);
+            this.txtDni.Location = new System.Drawing.Point(216, 140);
+            this.txtDni.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtDni.Name = "txtDni";
-            this.txtDni.Size = new System.Drawing.Size(118, 21);
+            this.txtDni.Size = new System.Drawing.Size(137, 23);
             this.txtDni.TabIndex = 6;
             // 
             // txtApellido
             // 
-            this.txtApellido.Location = new System.Drawing.Point(185, 80);
+            this.txtApellido.Location = new System.Drawing.Point(216, 98);
+            this.txtApellido.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtApellido.Name = "txtApellido";
-            this.txtApellido.Size = new System.Drawing.Size(118, 21);
+            this.txtApellido.Size = new System.Drawing.Size(137, 23);
             this.txtApellido.TabIndex = 7;
             // 
             // lblNumero
             // 
             this.lblNumero.AutoSize = true;
             this.lblNumero.ForeColor = System.Drawing.Color.White;
-            this.lblNumero.Location = new System.Drawing.Point(97, 186);
+            this.lblNumero.Location = new System.Drawing.Point(113, 229);
             this.lblNumero.Name = "lblNumero";
-            this.lblNumero.Size = new System.Drawing.Size(44, 13);
+            this.lblNumero.Size = new System.Drawing.Size(57, 17);
             this.lblNumero.TabIndex = 8;
             this.lblNumero.Text = "Numero";
             // 
             // txtNumero
             // 
-            this.txtNumero.Location = new System.Drawing.Point(185, 192);
+            this.txtNumero.Location = new System.Drawing.Point(216, 236);
+            this.txtNumero.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtNumero.Name = "txtNumero";
-            this.txtNumero.Size = new System.Drawing.Size(118, 21);
+            this.txtNumero.Size = new System.Drawing.Size(137, 23);
             this.txtNumero.TabIndex = 9;
             // 
             // lblCalle
             // 
             this.lblCalle.AutoSize = true;
             this.lblCalle.ForeColor = System.Drawing.Color.White;
-            this.lblCalle.Location = new System.Drawing.Point(97, 149);
+            this.lblCalle.Location = new System.Drawing.Point(113, 183);
             this.lblCalle.Name = "lblCalle";
-            this.lblCalle.Size = new System.Drawing.Size(30, 13);
+            this.lblCalle.Size = new System.Drawing.Size(35, 17);
             this.lblCalle.TabIndex = 10;
             this.lblCalle.Text = "Calle";
             // 
@@ -148,9 +152,9 @@
             // 
             this.lblMail.AutoSize = true;
             this.lblMail.ForeColor = System.Drawing.Color.White;
-            this.lblMail.Location = new System.Drawing.Point(97, 264);
+            this.lblMail.Location = new System.Drawing.Point(113, 325);
             this.lblMail.Name = "lblMail";
-            this.lblMail.Size = new System.Drawing.Size(25, 13);
+            this.lblMail.Size = new System.Drawing.Size(29, 17);
             this.lblMail.TabIndex = 11;
             this.lblMail.Text = "Mail";
             // 
@@ -158,39 +162,43 @@
             // 
             this.lblTelefono.AutoSize = true;
             this.lblTelefono.ForeColor = System.Drawing.Color.White;
-            this.lblTelefono.Location = new System.Drawing.Point(97, 227);
+            this.lblTelefono.Location = new System.Drawing.Point(113, 279);
             this.lblTelefono.Name = "lblTelefono";
-            this.lblTelefono.Size = new System.Drawing.Size(49, 13);
+            this.lblTelefono.Size = new System.Drawing.Size(60, 17);
             this.lblTelefono.TabIndex = 12;
             this.lblTelefono.Text = "Telefono";
             // 
             // txtTelefono
             // 
-            this.txtTelefono.Location = new System.Drawing.Point(185, 224);
+            this.txtTelefono.Location = new System.Drawing.Point(216, 276);
+            this.txtTelefono.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtTelefono.Name = "txtTelefono";
-            this.txtTelefono.Size = new System.Drawing.Size(118, 21);
+            this.txtTelefono.Size = new System.Drawing.Size(137, 23);
             this.txtTelefono.TabIndex = 13;
             // 
             // txtMail
             // 
-            this.txtMail.Location = new System.Drawing.Point(185, 257);
+            this.txtMail.Location = new System.Drawing.Point(216, 316);
+            this.txtMail.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtMail.Name = "txtMail";
-            this.txtMail.Size = new System.Drawing.Size(118, 21);
+            this.txtMail.Size = new System.Drawing.Size(137, 23);
             this.txtMail.TabIndex = 14;
             // 
             // txtCalle
             // 
-            this.txtCalle.Location = new System.Drawing.Point(185, 155);
+            this.txtCalle.Location = new System.Drawing.Point(216, 191);
+            this.txtCalle.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtCalle.Name = "txtCalle";
-            this.txtCalle.Size = new System.Drawing.Size(118, 21);
+            this.txtCalle.Size = new System.Drawing.Size(137, 23);
             this.txtCalle.TabIndex = 15;
             // 
             // cmbPlan
             // 
             this.cmbPlan.FormattingEnabled = true;
-            this.cmbPlan.Location = new System.Drawing.Point(185, 292);
+            this.cmbPlan.Location = new System.Drawing.Point(216, 359);
+            this.cmbPlan.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cmbPlan.Name = "cmbPlan";
-            this.cmbPlan.Size = new System.Drawing.Size(118, 21);
+            this.cmbPlan.Size = new System.Drawing.Size(137, 24);
             this.cmbPlan.TabIndex = 16;
             // 
             // gdrAsociados
@@ -203,16 +211,19 @@
             this.DNI,
             this.Telefono,
             this.Plan});
-            this.gdrAsociados.Location = new System.Drawing.Point(368, 38);
+            this.gdrAsociados.Location = new System.Drawing.Point(429, 47);
+            this.gdrAsociados.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.gdrAsociados.Name = "gdrAsociados";
             this.gdrAsociados.ReadOnly = true;
-            this.gdrAsociados.Size = new System.Drawing.Size(374, 289);
+            this.gdrAsociados.RowHeadersWidth = 51;
+            this.gdrAsociados.Size = new System.Drawing.Size(436, 356);
             this.gdrAsociados.TabIndex = 17;
             // 
             // Nombre
             // 
             this.Nombre.DataPropertyName = "Nombre";
             this.Nombre.HeaderText = "Nombre";
+            this.Nombre.MinimumWidth = 6;
             this.Nombre.Name = "Nombre";
             this.Nombre.ReadOnly = true;
             this.Nombre.Width = 70;
@@ -220,6 +231,7 @@
             // Apellido
             // 
             this.Apellido.HeaderText = "Apellido";
+            this.Apellido.MinimumWidth = 6;
             this.Apellido.Name = "Apellido";
             this.Apellido.ReadOnly = true;
             this.Apellido.Width = 70;
@@ -228,6 +240,7 @@
             // 
             this.DNI.DataPropertyName = "DNI";
             this.DNI.HeaderText = "DNI";
+            this.DNI.MinimumWidth = 6;
             this.DNI.Name = "DNI";
             this.DNI.ReadOnly = true;
             this.DNI.Width = 70;
@@ -236,6 +249,7 @@
             // 
             this.Telefono.DataPropertyName = "Telefono";
             this.Telefono.HeaderText = "Telefono";
+            this.Telefono.MinimumWidth = 6;
             this.Telefono.Name = "Telefono";
             this.Telefono.ReadOnly = true;
             this.Telefono.Width = 70;
@@ -244,6 +258,7 @@
             // 
             this.Plan.DataPropertyName = "Plan";
             this.Plan.HeaderText = "Plan";
+            this.Plan.MinimumWidth = 6;
             this.Plan.Name = "Plan";
             this.Plan.ReadOnly = true;
             this.Plan.Width = 50;
@@ -251,9 +266,10 @@
             // btnAgregar
             // 
             this.btnAgregar.ForeColor = System.Drawing.Color.Black;
-            this.btnAgregar.Location = new System.Drawing.Point(599, 370);
+            this.btnAgregar.Location = new System.Drawing.Point(699, 455);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(143, 46);
+            this.btnAgregar.Size = new System.Drawing.Size(167, 57);
             this.btnAgregar.TabIndex = 18;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
@@ -261,18 +277,20 @@
             // btnLimpiar
             // 
             this.btnLimpiar.ForeColor = System.Drawing.Color.Black;
-            this.btnLimpiar.Location = new System.Drawing.Point(368, 370);
+            this.btnLimpiar.Location = new System.Drawing.Point(429, 455);
+            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(145, 46);
+            this.btnLimpiar.Size = new System.Drawing.Size(169, 57);
             this.btnLimpiar.TabIndex = 19;
             this.btnLimpiar.Text = "Limpiar Campo";
             this.btnLimpiar.UseVisualStyleBackColor = true;
             // 
             // btnActualizarAsociados
             // 
-            this.btnActualizarAsociados.Location = new System.Drawing.Point(185, 370);
+            this.btnActualizarAsociados.Location = new System.Drawing.Point(216, 455);
+            this.btnActualizarAsociados.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnActualizarAsociados.Name = "btnActualizarAsociados";
-            this.btnActualizarAsociados.Size = new System.Drawing.Size(118, 45);
+            this.btnActualizarAsociados.Size = new System.Drawing.Size(138, 55);
             this.btnActualizarAsociados.TabIndex = 20;
             this.btnActualizarAsociados.Text = "Actualizar Asociado";
             this.btnActualizarAsociados.UseVisualStyleBackColor = true;
@@ -281,9 +299,10 @@
             // 
             this.Appearance.ForeColor = System.Drawing.Color.Black;
             this.Appearance.Options.UseForeColor = true;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.AutoSize = true;
+            this.ClientSize = new System.Drawing.Size(933, 554);
             this.Controls.Add(this.btnActualizarAsociados);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.btnAgregar);
@@ -304,6 +323,8 @@
             this.Controls.Add(this.lblApellido);
             this.Controls.Add(this.lblDni);
             this.Controls.Add(this.lblNombre);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "altaAsociado";
             this.Text = "Alta de Asociado";
             ((System.ComponentModel.ISupportInitialize)(this.gdrAsociados)).EndInit();

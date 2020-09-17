@@ -11,7 +11,7 @@ namespace BibliotecaMET.Clases.Interfaces.Adaptadores
     {
         
         void RegristrarObservador(IObservador observador);
-        void QuitarObservador(IObservador observador);
+        void QuitarObservador(System.Windows.Forms.Form form);
         void Notificar(object publicador);
         
     }

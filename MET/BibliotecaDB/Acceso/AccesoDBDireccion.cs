@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace BibliotecaDB.Acceso
 {
-    public partial class AccesoDBDireccion
+    public static class AccesoDBDireccion
     {
         public static List<object> ConsultarDireccion(int direccion_id) 
         {
