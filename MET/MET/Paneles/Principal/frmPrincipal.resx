@@ -123,20 +123,20 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="lblTime.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 20pt, style=Bold</value>
+    <value>Microsoft Sans Serif, 18pt, style=Bold</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="lblTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="lblTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>33, 343</value>
+    <value>287, 2</value>
   </data>
   <data name="lblTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
   <data name="lblTime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 39</value>
+    <value>102, 29</value>
   </data>
   <data name="lblTime.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -151,64 +151,28 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblTime.Parent" xml:space="preserve">
-    <value>menuPrincipal</value>
+    <value>barraTitulo</value>
   </data>
   <data name="&gt;&gt;lblTime.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="lblNombreUsuario.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblNombreUsuario.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 20pt, style=Bold</value>
-  </data>
-  <data name="lblNombreUsuario.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblNombreUsuario.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-101, 583</value>
-  </data>
-  <data name="lblNombreUsuario.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="lblNombreUsuario.Size" type="System.Drawing.Size, System.Drawing">
-    <value>269, 39</value>
-  </data>
-  <data name="lblNombreUsuario.TabIndex" type="System.Int32, mscorlib">
-    <value>999999</value>
-  </data>
-  <data name="lblNombreUsuario.Text" xml:space="preserve">
-    <value>NombreUsuario</value>
-  </data>
-  <data name="&gt;&gt;lblNombreUsuario.Name" xml:space="preserve">
-    <value>lblNombreUsuario</value>
-  </data>
-  <data name="&gt;&gt;lblNombreUsuario.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblNombreUsuario.Parent" xml:space="preserve">
-    <value>menuPrincipal</value>
-  </data>
-  <data name="&gt;&gt;lblNombreUsuario.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>3</value>
   </data>
   <data name="lblFecha.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="lblFecha.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 20pt, style=Bold</value>
+    <value>Microsoft Sans Serif, 18pt, style=Bold</value>
   </data>
   <data name="lblFecha.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="lblFecha.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 141</value>
+    <value>105, 2</value>
   </data>
   <data name="lblFecha.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
   <data name="lblFecha.Size" type="System.Drawing.Size, System.Drawing">
-    <value>155, 39</value>
+    <value>114, 29</value>
   </data>
   <data name="lblFecha.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -223,7 +187,7 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblFecha.Parent" xml:space="preserve">
-    <value>menuPrincipal</value>
+    <value>barraTitulo</value>
   </data>
   <data name="&gt;&gt;lblFecha.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -231,42 +195,6 @@
   <metadata name="timerTiempo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>137, -4</value>
   </metadata>
-  <data name="picCenterLogo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="picCenterLogo.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="picCenterLogo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="picCenterLogo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>50, 195</value>
-  </data>
-  <data name="picCenterLogo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 2, 4, 2</value>
-  </data>
-  <data name="picCenterLogo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 196</value>
-  </data>
-  <data name="picCenterLogo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
-  </data>
-  <data name="picCenterLogo.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;picCenterLogo.Name" xml:space="preserve">
-    <value>picCenterLogo</value>
-  </data>
-  <data name="&gt;&gt;picCenterLogo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;picCenterLogo.Parent" xml:space="preserve">
-    <value>menuPrincipal</value>
-  </data>
-  <data name="&gt;&gt;picCenterLogo.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
   <data name="menuPrincipal.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
   </data>
@@ -280,7 +208,7 @@
     <value>4, 2, 4, 2</value>
   </data>
   <data name="menuPrincipal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 699</value>
+    <value>188, 652</value>
   </data>
   <data name="menuPrincipal.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -307,28 +235,28 @@
     <value>None</value>
   </data>
   <data name="btnOscuro.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 26</value>
+    <value>120, 22</value>
   </data>
   <data name="btnOscuro.Text" xml:space="preserve">
     <value>Oscuro</value>
   </data>
   <data name="btnPlateado.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 26</value>
+    <value>120, 22</value>
   </data>
   <data name="btnPlateado.Text" xml:space="preserve">
     <value>Plateado</value>
   </data>
   <data name="btnTema.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 24</value>
+    <value>47, 19</value>
   </data>
   <data name="btnTema.Text" xml:space="preserve">
     <value>Tema</value>
   </data>
   <data name="menuTemas.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1087, 3</value>
+    <value>746, 3</value>
   </data>
   <data name="menuTemas.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 28</value>
+    <value>50, 23</value>
   </data>
   <data name="menuTemas.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -361,7 +289,7 @@
     <value>4, 4, 4, 4</value>
   </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1150, 1</value>
+    <value>796, 1</value>
   </data>
   <data name="panel1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -376,7 +304,7 @@
     <value>barraTitulo</value>
   </data>
   <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="panelBarra.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
@@ -388,7 +316,7 @@
     <value>4, 4, 4, 4</value>
   </data>
   <data name="panelBarra.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1150, 1</value>
+    <value>796, 1</value>
   </data>
   <data name="panelBarra.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -403,7 +331,7 @@
     <value>barraTitulo</value>
   </data>
   <data name="&gt;&gt;panelBarra.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="btnMenuSlide.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -433,7 +361,7 @@
     <value>barraTitulo</value>
   </data>
   <data name="&gt;&gt;btnMenuSlide.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="barraTitulo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
@@ -445,7 +373,7 @@
     <value>4, 2, 4, 2</value>
   </data>
   <data name="barraTitulo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1150, 34</value>
+    <value>796, 34</value>
   </data>
   <data name="barraTitulo.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -462,6 +390,9 @@
   <data name="&gt;&gt;barraTitulo.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="panelCentro.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
   <data name="panelCentro.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -469,7 +400,7 @@
     <value>188, 34</value>
   </data>
   <data name="panelCentro.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1150, 665</value>
+    <value>796, 618</value>
   </data>
   <data name="panelCentro.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -496,7 +427,7 @@
     <value>True</value>
   </metadata>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1338, 699</value>
+    <value>984, 652</value>
   </data>
   <data name="Principal.IconOptions.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -5009,11 +4940,11 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
 </value>
   </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 2, 4, 2</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1300, 1000</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

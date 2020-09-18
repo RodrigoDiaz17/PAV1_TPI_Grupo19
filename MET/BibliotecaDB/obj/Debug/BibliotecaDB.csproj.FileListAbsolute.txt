@@ -19,3 +19,10 @@ Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\Bibli
 Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaDB\obj\Debug\BibliotecaDB.dll
 Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaDB\obj\Debug\BibliotecaDB.pdb
 Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaDB\obj\Debug\BibliotecaDB.csprojAssemblyReference.cache
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaDB\bin\Debug\BibliotecaDB.dll.config
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaDB\bin\Debug\BibliotecaDB.dll
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaDB\bin\Debug\BibliotecaDB.pdb
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaDB\obj\Debug\BibliotecaDB.csprojAssemblyReference.cache
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaDB\obj\Debug\BibliotecaDB.csproj.CoreCompileInputs.cache
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaDB\obj\Debug\BibliotecaDB.dll
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaDB\obj\Debug\BibliotecaDB.pdb

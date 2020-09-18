@@ -54,13 +54,15 @@
   <ItemGroup>
     <Compile Include="Acceso\AccesoDBBarrio.cs" />
     <Compile Include="Acceso\AccesoDBCuentas.cs" />
+    <Compile Include="Acceso\AccesoDBEmpleados.cs" />
+    <Compile Include="Acceso\AccesoDBGenero.cs" />
     <Compile Include="Acceso\AccesoDBPersona.cs" />
     <Compile Include="Acceso\AccesoDBDireccion.cs" />
     <Compile Include="Entidades\Asociados.cs" />
     <Compile Include="Entidades\Barrio.cs" />
     <Compile Include="Entidades\Cuenta.cs" />
     <Compile Include="Entidades\Direccion.cs" />
-    <Compile Include="Entidades\Empleados.cs" />
+    <Compile Include="Entidades\Empleado.cs" />
     <Compile Include="Entidades\Persona.cs" />
     <Compile Include="Conexion\ConeccionDB.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

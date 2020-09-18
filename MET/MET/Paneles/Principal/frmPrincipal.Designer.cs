@@ -31,7 +31,6 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Principal));
             this.lblTime = new System.Windows.Forms.Label();
-            this.lblNombreUsuario = new System.Windows.Forms.Label();
             this.lblFecha = new System.Windows.Forms.Label();
             this.timerTiempo = new System.Windows.Forms.Timer(this.components);
             this.menuPrincipal = new System.Windows.Forms.Panel();
@@ -43,14 +42,11 @@
             this.barraTitulo = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panelBarra = new System.Windows.Forms.Panel();
-            this.panelCentro = new System.Windows.Forms.Panel();
             this.btnMenuSlide = new System.Windows.Forms.PictureBox();
-            this.picCenterLogo = new System.Windows.Forms.PictureBox();
-            this.menuPrincipal.SuspendLayout();
+            this.panelCentro = new System.Windows.Forms.Panel();
             this.menuTemas.SuspendLayout();
             this.barraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnMenuSlide)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picCenterLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTime
@@ -59,13 +55,6 @@
             this.lblTime.BackColor = System.Drawing.Color.Transparent;
             this.lblTime.ForeColor = System.Drawing.Color.Ivory;
             this.lblTime.Name = "lblTime";
-            // 
-            // lblNombreUsuario
-            // 
-            resources.ApplyResources(this.lblNombreUsuario, "lblNombreUsuario");
-            this.lblNombreUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(102)))), ((int)(((byte)(35)))));
-            this.lblNombreUsuario.ForeColor = System.Drawing.Color.Ivory;
-            this.lblNombreUsuario.Name = "lblNombreUsuario";
             // 
             // lblFecha
             // 
@@ -81,10 +70,6 @@
             // menuPrincipal
             // 
             this.menuPrincipal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(38)))));
-            this.menuPrincipal.Controls.Add(this.lblNombreUsuario);
-            this.menuPrincipal.Controls.Add(this.lblFecha);
-            this.menuPrincipal.Controls.Add(this.lblTime);
-            this.menuPrincipal.Controls.Add(this.picCenterLogo);
             resources.ApplyResources(this.menuPrincipal, "menuPrincipal");
             this.menuPrincipal.Name = "menuPrincipal";
             // 
@@ -129,7 +114,9 @@
             // 
             this.barraTitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.barraTitulo.Controls.Add(this.menuTemas);
+            this.barraTitulo.Controls.Add(this.lblFecha);
             this.barraTitulo.Controls.Add(this.panel1);
+            this.barraTitulo.Controls.Add(this.lblTime);
             this.barraTitulo.Controls.Add(this.panelBarra);
             this.barraTitulo.Controls.Add(this.btnMenuSlide);
             resources.ApplyResources(this.barraTitulo, "barraTitulo");
@@ -148,12 +135,6 @@
             resources.ApplyResources(this.panelBarra, "panelBarra");
             this.panelBarra.Name = "panelBarra";
             // 
-            // panelCentro
-            // 
-            this.panelCentro.BackColor = System.Drawing.Color.Red;
-            resources.ApplyResources(this.panelCentro, "panelCentro");
-            this.panelCentro.Name = "panelCentro";
-            // 
             // btnMenuSlide
             // 
             this.btnMenuSlide.BackColor = System.Drawing.Color.Transparent;
@@ -164,12 +145,12 @@
             this.btnMenuSlide.TabStop = false;
             this.btnMenuSlide.Click += new System.EventHandler(this.btnMenu_Click);
             // 
-            // picCenterLogo
+            // panelCentro
             // 
-            resources.ApplyResources(this.picCenterLogo, "picCenterLogo");
-            this.picCenterLogo.Image = global::MET.Properties.Resources.Logo;
-            this.picCenterLogo.Name = "picCenterLogo";
-            this.picCenterLogo.TabStop = false;
+            this.panelCentro.BackColor = System.Drawing.Color.Red;
+            this.panelCentro.BackgroundImage = global::MET.Properties.Resources.Logo;
+            resources.ApplyResources(this.panelCentro, "panelCentro");
+            this.panelCentro.Name = "panelCentro";
             // 
             // Principal
             // 
@@ -181,15 +162,13 @@
             this.IconOptions.Icon = ((System.Drawing.Icon)(resources.GetObject("Principal.IconOptions.Icon")));
             this.MainMenuStrip = this.menuTemas;
             this.Name = "Principal";
+            this.TopMost = true;
             this.Load += new System.EventHandler(this.Principal_Load);
-            this.menuPrincipal.ResumeLayout(false);
-            this.menuPrincipal.PerformLayout();
             this.menuTemas.ResumeLayout(false);
             this.menuTemas.PerformLayout();
             this.barraTitulo.ResumeLayout(false);
             this.barraTitulo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnMenuSlide)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picCenterLogo)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -198,9 +177,7 @@
         private System.Windows.Forms.Label lblTime;
         private System.Windows.Forms.Timer timerTiempo;
         private System.Windows.Forms.Label lblFecha;
-        private System.Windows.Forms.Label lblNombreUsuario;
         private System.Windows.Forms.Panel menuPrincipal;
-        private System.Windows.Forms.PictureBox picCenterLogo;
         private System.Windows.Forms.PictureBox btnMenuSlide;
         public DevExpress.LookAndFeel.DefaultLookAndFeel temaForm;
         private System.Windows.Forms.Panel barraTitulo;

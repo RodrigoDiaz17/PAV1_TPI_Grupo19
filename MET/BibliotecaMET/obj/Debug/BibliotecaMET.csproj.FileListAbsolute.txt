@@ -96,3 +96,42 @@ Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\Bibli
 Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\obj\Debug\BibliotecaMET.csproj.CopyComplete
 Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\obj\Debug\BibliotecaMET.dll
 Z:\Programacion\RepositorioGitHub\PAV1\PrimeraEntrega\PAV1_TPI_Grupo19\MET\BibliotecaMET\obj\Debug\BibliotecaMET.pdb
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\BibliotecaMET.dll.config
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\BibliotecaMET.dll
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\BibliotecaMET.pdb
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\BibliotecaDB.dll
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\BibliotecaDB.pdb
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\BibliotecaDB.dll.config
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\DevExpress.Data.v20.1.xml
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\DevExpress.Utils.v20.1.xml
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\obj\Debug\BibliotecaMET.csprojAssemblyReference.cache
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\obj\Debug\BibliotecaMET.Clases.Form.AbstractForm.resources
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\obj\Debug\BibliotecaMET.Properties.Resources.resources
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\obj\Debug\BibliotecaMET.csproj.GenerateResource.cache
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\obj\Debug\BibliotecaMET.csproj.CoreCompileInputs.cache
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\obj\Debug\BibliotecaMET.csproj.CopyComplete
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\obj\Debug\BibliotecaMET.dll
+C:\Users\JuanC\Documents\Juan\Facultad\PAV1\TP pav1\PAV1_TPI_Grupo19\MET\BibliotecaMET\obj\Debug\BibliotecaMET.pdb

@@ -32,10 +32,9 @@
             this.menuEmpleados = new System.Windows.Forms.MenuStrip();
             this.btnConsultarEmpleado = new System.Windows.Forms.ToolStripMenuItem();
             this.btnRegistrarEmpleados = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnSalir = new System.Windows.Forms.ToolStripMenuItem();
             this.PanelMenuStrip = new System.Windows.Forms.Panel();
             this.panelBarra = new System.Windows.Forms.Panel();
-            this.btnBorrarEmpleados = new System.Windows.Forms.ToolStripMenuItem();
-            this.btnSalir = new System.Windows.Forms.ToolStripMenuItem();
             this.menuEmpleados.SuspendLayout();
             this.PanelMenuStrip.SuspendLayout();
             this.SuspendLayout();
@@ -45,9 +44,10 @@
             this.PanelContenedor.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.PanelContenedor.BackColor = System.Drawing.Color.RoyalBlue;
             this.PanelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PanelContenedor.Location = new System.Drawing.Point(0, 29);
+            this.PanelContenedor.Location = new System.Drawing.Point(0, 24);
+            this.PanelContenedor.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PanelContenedor.Name = "PanelContenedor";
-            this.PanelContenedor.Size = new System.Drawing.Size(800, 421);
+            this.PanelContenedor.Size = new System.Drawing.Size(686, 342);
             this.PanelContenedor.TabIndex = 0;
             // 
             // menuEmpleados
@@ -56,25 +56,34 @@
             this.menuEmpleados.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.btnConsultarEmpleado,
             this.btnRegistrarEmpleados,
-            this.btnBorrarEmpleados,
             this.btnSalir});
             this.menuEmpleados.Location = new System.Drawing.Point(0, 0);
             this.menuEmpleados.Name = "menuEmpleados";
-            this.menuEmpleados.Size = new System.Drawing.Size(800, 30);
+            this.menuEmpleados.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
+            this.menuEmpleados.Size = new System.Drawing.Size(686, 24);
             this.menuEmpleados.TabIndex = 0;
             this.menuEmpleados.Text = "menuStrip1";
             // 
             // btnConsultarEmpleado
             // 
             this.btnConsultarEmpleado.Name = "btnConsultarEmpleado";
-            this.btnConsultarEmpleado.Size = new System.Drawing.Size(163, 24);
+            this.btnConsultarEmpleado.Size = new System.Drawing.Size(131, 20);
             this.btnConsultarEmpleado.Text = "Consultar Empleados";
+            this.btnConsultarEmpleado.Click += new System.EventHandler(this.btnConsultarEmpleado_Click);
             // 
             // btnRegistrarEmpleados
             // 
             this.btnRegistrarEmpleados.Name = "btnRegistrarEmpleados";
-            this.btnRegistrarEmpleados.Size = new System.Drawing.Size(160, 24);
+            this.btnRegistrarEmpleados.Size = new System.Drawing.Size(126, 20);
             this.btnRegistrarEmpleados.Text = "Regsitrar Empleados";
+            this.btnRegistrarEmpleados.Click += new System.EventHandler(this.btnRegistrarEmpleados_Click);
+            // 
+            // btnSalir
+            // 
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(41, 20);
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // PanelMenuStrip
             // 
@@ -82,43 +91,31 @@
             this.PanelMenuStrip.Controls.Add(this.panelBarra);
             this.PanelMenuStrip.Dock = System.Windows.Forms.DockStyle.Top;
             this.PanelMenuStrip.Location = new System.Drawing.Point(0, 0);
+            this.PanelMenuStrip.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PanelMenuStrip.Name = "PanelMenuStrip";
-            this.PanelMenuStrip.Size = new System.Drawing.Size(800, 29);
+            this.PanelMenuStrip.Size = new System.Drawing.Size(686, 24);
             this.PanelMenuStrip.TabIndex = 0;
             // 
             // panelBarra
             // 
             this.panelBarra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(102)))), ((int)(((byte)(35)))));
             this.panelBarra.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelBarra.Location = new System.Drawing.Point(0, 28);
-            this.panelBarra.Margin = new System.Windows.Forms.Padding(4);
+            this.panelBarra.Location = new System.Drawing.Point(0, 23);
             this.panelBarra.Name = "panelBarra";
-            this.panelBarra.Size = new System.Drawing.Size(800, 1);
+            this.panelBarra.Size = new System.Drawing.Size(686, 1);
             this.panelBarra.TabIndex = 1;
-            // 
-            // btnBorrarEmpleados
-            // 
-            this.btnBorrarEmpleados.Name = "btnBorrarEmpleados";
-            this.btnBorrarEmpleados.Size = new System.Drawing.Size(142, 24);
-            this.btnBorrarEmpleados.Text = "Borrar Empleados";
-            // 
-            // btnSalir
-            // 
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(52, 24);
-            this.btnSalir.Text = "Salir";
-            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // frmPanelEmpleados
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(686, 366);
             this.Controls.Add(this.PanelContenedor);
             this.Controls.Add(this.PanelMenuStrip);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MainMenuStrip = this.menuEmpleados;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmPanelEmpleados";
             this.Text = "frmPanelEmpleados";
             this.menuEmpleados.ResumeLayout(false);
@@ -137,7 +134,6 @@
         private System.Windows.Forms.ToolStripMenuItem btnConsultarEmpleado;
         private System.Windows.Forms.ToolStripMenuItem btnRegistrarEmpleados;
         private System.Windows.Forms.Panel panelBarra;
-        private System.Windows.Forms.ToolStripMenuItem btnBorrarEmpleados;
         private System.Windows.Forms.ToolStripMenuItem btnSalir;
     }
 }

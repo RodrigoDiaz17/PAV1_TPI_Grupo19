@@ -1,5 +1,7 @@
 ﻿using BibliotecaMET.Clases.Form;
+using BibliotecaMET.Clases.Temas;
 using DevExpress.XtraRichEdit.Model;
+using MET.Paneles.Contenedor;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,12 +16,13 @@ namespace MET.ABMC.Empleados
 {
     public partial class frmPanelEmpleados : AbstractForm
     {
+        static Form formActual;
+        static short estado = 0;
         public frmPanelEmpleados()
         {
             InitializeComponent();
             Actualizar(base.Tema);
         }
-
 
         //TEMAS
 
@@ -56,7 +59,6 @@ namespace MET.ABMC.Empleados
             //botones
             btnConsultarEmpleado.BackColor = Colors[0];
             btnRegistrarEmpleados.BackColor = Colors[0];
-            btnBorrarEmpleados.BackColor = Colors[0];
             btnSalir.BackColor = Colors[0];
         }
         //Ingresar colores - según tema
@@ -84,7 +86,25 @@ namespace MET.ABMC.Empleados
 
         private void frmPanelEmpleados_Load(object sender, EventArgs e)
         {
-           
+        }
+
+        private void btnConsultarEmpleado_Click(object sender, EventArgs e)
+        {
+            formActual = new frmConsultarEmpleado();
+            AgregarFormAlPanelCentral(formActual);
+        }
+
+        private void btnRegistrarEmpleados_Click(object sender, EventArgs e)
+        {
+            formActual =  new frmAltaEmpleado();
+            AgregarFormAlPanelCentral(formActual);
+        }
+
+        public void AgregarFormAlPanelCentral(Form form) 
+        {
+            BibliotecaMET.Clases.MetodosGenerales.Forms.MetodosForms.AbrirFormEnPanel(form,PanelContenedor);
+            Observador observador = new Observador(); observador.Form = form;
+            Contenedor.principal.publicadorTema.RegristrarObservador(observador);
         }
     }
 }

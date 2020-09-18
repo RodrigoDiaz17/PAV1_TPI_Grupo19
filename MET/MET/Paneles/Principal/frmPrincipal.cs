@@ -58,7 +58,6 @@ namespace MET.Paneles
         {
             timerTiempo.Start();
             pw = menuPrincipal.Width;
-            lblNombreUsuario.Text = cuenta.Usuario;
             string path = new Path().combinarCarpetaArchivo(nombreCarpeta, nombreArchivo);
             base.Tema = Settings.Default["Tema"].ToString();
             try
@@ -102,7 +101,7 @@ namespace MET.Paneles
         protected override void AjustarPaneles(Color[] Colors) //Ingresar colores
         {
             barraTitulo.BackColor = Colors[0];
-          //  panelCentro.BackColor = Colors[1];
+            panelCentro.BackColor = Colors[1];
             menuPrincipal.BackColor = Colors[2];
         }
         //Ingresar colores - según tema
@@ -149,13 +148,16 @@ namespace MET.Paneles
                 Colors[0] = Color.FromArgb(27, 27, 28);
                 Colors[1] = Color.FromArgb(51, 51, 52);
                 Colors[2] = Color.FromArgb(45, 45, 48);
-
+              
+                lblFecha.ForeColor = lblTime.ForeColor = Color.FromArgb(201, 222, 245);
             }
             if (nombreTema.Equals("Visual Studio 2013 Light"))
             {
                 Colors[0] = Color.FromArgb(246, 246, 246);
                 Colors[1] = Color.FromArgb(201, 222, 245);
                 Colors[2] = Color.FromArgb(28, 151, 234);
+
+                lblFecha.ForeColor = lblTime.ForeColor = Color.FromArgb(51, 51, 52);
             }
             AjustarBotones(Colors);
 
