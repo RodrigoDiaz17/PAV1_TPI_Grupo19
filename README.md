@@ -8,9 +8,10 @@ Feraudo Isabel 73462
 
 Proyecto Gimnasio MET
 Consideraciones:
-- Como usamos otro dominio, tiene que cargar la base de datos. Puede encontrar el archivo bacpac en el repositorio. Ademas dentro del proyecto es necesario cambiar la cadena de conexión. Se encuentra dentro de BibliotecaDB --> Acceso/Conexion
+- Como usamos otro dominio, tiene que cargar la base de datos. Puede encontrar el archivo bacpac en el repositorio. Ademas dentro del proyecto es necesario cambiar la cadena de conexión. 
+Se encuentra dentro de BibliotecaDB --> Conexion --> ConeccionDB.cs
 
-- Posiblemente requiera recompilar los proyectos para que se definan correctamente las referencias. Hagalo en el orden en que aparecer los proyectos (1 BibliotecaDB, 2 BibliotecaMET, 3 MET)
+- Posiblemente requiera recompilar los proyectos para que se definan correctamente las referencias. Hagalo en el orden en que aparecer los proyectos (1-BibliotecaDB, 2-BibliotecaMET, 3-MET)
 
 - Para loguearse al sistema utilizar los sig datos:
 Usuario: gimnasio1
